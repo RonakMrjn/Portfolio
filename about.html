@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Ronak Maharjan — UI/UX Designer, Frontend Developer & Graphic Designer." />
+  <title>About Me — Ronak Maharjan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Ronak Maharjan</a>
+    <ul class="nav-links">
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="mailto:ronakmaharjan13@gmail.com" class="nav-contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Navigation">
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="mailto:ronakmaharjan13@gmail.com">Contact</a>
+  </div>
+
+  <!-- ABOUT HERO -->
+  <section class="about-hero">
+    <div class="about-hero-inner">
+      <div class="about-headline-wrap">
+        <h1 class="about-headline">
+          UI/UX designer &amp;<br>
+          <em>frontend developer</em><br>
+          with a foundation in<br>
+          graphic design.
+          <!-- ↑ Update this headline to match your personal tagline -->
+          <!-- Example: Based in [Your City, Country] -->
+        </h1>
+      </div>
+
+      <div class="about-portrait">
+        <!-- REPLACE the div below with your portrait:
+              -->
+        <div class="portrait-ph">
+          <img class="portrait-img" src="assets/images/portrait.jpg" alt="Ronak Maharjan">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT BODY -->
+  <div class="about-body">
+
+    <!-- Bio + Skills -->
+    <div class="about-row">
+
+      <!-- Bio -->
+      <div class="about-col fade-up">
+        <p class="col-label">Bio</p>
+        <div class="bio-text">
+          <p>
+            I am a Bachelor of Computer Applications (BCA) student at NCCS, 
+            affiliated with Tribhuvan University, with a strong interest in 
+            UI/UX design and frontend development. I am passionate about creating 
+            intuitive, user-centered digital experiences that combine aesthetic 
+            design with functional efficiency.
+          </p>
+          <p>
+            I have been actively developing my skills in designing responsive 
+            interfaces and translating design concepts into interactive web 
+            applications using modern frontend technologies. My focus lies 
+            in understanding user behavior, improving usability, and 
+            delivering clean, engaging interfaces.
+          </p>
+          <p>
+            Currently, I am seeking opportunities as a UI/UX Designer where
+            I can apply my creativity, technical knowledge, and problem-solving 
+            skills to contribute to impactful projects while continuing to 
+            learn and grow in the field.
+
+          </p>
+          <p>
+            When I'm not designing or coding, you'll find me exploring new
+            places, experimenting with creative projects, or enjoying the
+            outdoors.
+            <!-- Personalise this last paragraph — make it yours! -->
+          </p>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="about-col fade-up">
+        <p class="col-label">Skills</p>
+        <ul class="skill-list stagger-children">
+          <li>User Interface Design</li>
+          <li>User Experience Design</li>
+          <li>Frontend Development</li>
+          <li>Graphic Design </li>
+          <li>Responsive Web Design</li>
+          <!-- <li></li> -->
+          <li>Wireframing &amp; Prototyping</li>
+          <!-- <li>Information Architecture</li> -->
+          <!-- <li>Design Systems</li> -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- Tools + Education -->
+    <div class="about-row">
+
+      <!-- Design & Dev Tools -->
+      <div class="about-col fade-up">
+        <p class="col-label">Design &amp; Dev Tools</p>
+        <ul class="tools-list stagger-children">
+          <li>Figma</li>
+          <li>HTML / CSS / JavaScript</li>
+          <li>React</li>
+          <li>Adobe Illustrator</li>
+          <li>Adobe Photoshop</li>
+          <li>Adobe InDesign</li>
+          <li>VS Code</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+      </div>
+
+      <!-- Education -->
+      <div class="about-col fade-up">
+        <p class="col-label">Education</p>
+        <table class="edu-table">
+          <tbody>
+            <tr>
+              <td>UI/UX Design Course</td>
+              <td>National College of Computer Science(2025)</td>
+            </tr>
+            <tr>
+              <td>+2 in Management(Computer Science)</td>
+              <td>New Zenith English Model School(2022)</td>
+            </tr>
+            <tr>
+              <td>Bachelor in Computer Application</td>
+              <td>National College of Computer Science(2022-Present)</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- ↑ Replace with your real education history -->
+      </div>
+    </div>
+
+    <!-- Resume CTA -->
+    <div class="resume-cta fade-up">
+      <a href="mailto:ronakmaharjan13@gmail.com?subject=Resume Request" class="btn-primary">Request Resume</a>
+      <a href="projects.html" class="btn-outline">View My Work</a>
+    </div>
+
+  </div><!-- /about-body -->
+
+  <!-- LET'S CHAT -->
+  <section class="chat-section">
+    <p class="chat-eyebrow fade-up">Open to Opportunities</p>
+    <h2 class="chat-heading fade-up">Let's chat?</h2>
+    <a href="mailto:ronakmaharjan13@gmail.com" class="btn-chat fade-up">Email Me</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© 2024 Ronak Maharjan &nbsp;|&nbsp; Get In Touch &nbsp;<a href="mailto:ronakmaharjan13@gmail.com">ronakmaharjan13@gmail.com</a></p>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="mailto:ronakmaharjan13@gmail.com">Contact</a>
+    </nav>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
