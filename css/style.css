@@ -283,6 +283,7 @@ ul { list-style: none; }
 .project-image {
   overflow: hidden;
   position: relative;
+  alignment-self:center;
 }
 .project-image img {
   width: 100%;
